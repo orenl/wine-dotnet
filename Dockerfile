@@ -83,7 +83,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # copy the compiled app (Release folder from Windows) - option 2 below
-# COPY Release/ /app
+# COPY release/ /app
 
 ENTRYPOINT ["wine"]
 
